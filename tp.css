@@ -1,8 +1,4 @@
 
-o Les liens au passage de la souris seront en #2B2D42
-
-*/
-
 body {
     background: radial-gradient(circle at center,#CCDAE0,#EDF2F4 );
   }
@@ -30,10 +26,6 @@ article{
     border:black solid 1px;
 }
 
-div{
-    border:#8D99AE solid 2px;
-    text-align: left;
-}
 
 footer{
     text-align: right;
@@ -48,7 +40,6 @@ img{
     border-color: #8D99AE;
     border:solid;
     border-width: 2px;
-
 }
 
 
@@ -75,4 +66,8 @@ a:active{
 
 body {
     background: radial-gradient(circle at center,#CCDAE0,#EDF2F4 );
+  }
+
+  p{
+    text-align: center;
   }
