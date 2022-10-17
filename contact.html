@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="tp.css">
+</head>
+
+<body>
+    <header>
+            <img src="ombre.jpg">
+            <h1>Bienvenue sur mon site!</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#ancre"> Blog</a></li>
+                    <li>Galerie</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <form method="POST" action="monTP4.php"></form>
+    <fieldset>
+        <legend>Contact</legend>
+
+        <div>
+            <label for="name">Nom<p class="etoile">*</p>: </label>
+            <input type="text" id="name" name="name" minlength="2" maxlength="20" size="50"
+                placeholder="Veuillez saisir votre nom">
+        </div>
+        <div>
+            <label for="mail">Email<p class="etoile">*</p>: </label>
+            <input type="e-mail" id="e-mail" name="e-mail" size="50" placeholder="Veuillez saisir votre e-mail">
+        </div>
+        <div>
+            <label for="review">Laissez un commentaire</label>
+            <br>
+            <input type="textarea" id="commentaire" placeholder="Je dépose mon avis" rows="10" cols="70">
+        </div>
+        <div>
+            <label for="checkbox">Envoyez une copie par E-mail! </label>
+            <input type="checkbox" id="checkbox" />
+        </div>
+        <div> <input type="submit" value="Envoyer" />
+            <input type="submit" value="Reset" />
+
+        </div>
+    </fieldset>
+    <footer>
+        <ul>
+            <li><a href="Menu1.html">Menu1</a></li>
+            <li><a href="Menu2.html">Menu2</a></li>
+            <li><a href="Menu3.html">Menu3</a></li>
+            <li><a href="Menu4.html">Menu4</a></li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>
